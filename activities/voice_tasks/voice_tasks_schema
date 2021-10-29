@@ -1,0 +1,45 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "voice_tasks": "https://raw.githubusercontent.com/danielmlow/reproschema-library/4e1cccffabd7a8858c22c0e9a113ea0820257a27/activities/VoiceTask/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "voice_tasks_schema",
+    "prefLabel": "Voice tasks",
+    "description": "Voice tasks",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": "Click the <u>Record</u> button before speaking and then the <u>Stop</u> button once you are done. Use your <u>typical volume and typical pitch</u>.",
+        "es": "Haga click"
+    },
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "say_ah",
+                "isAbout": "voice_tasks:say_ah"
+            },
+            {
+                "variableName": "animal_fluency",
+                "isAbout": "voice_tasks:animal_fluency"
+            },
+            {
+                "variableName": "free_speech_general_mood",
+                "isAbout": "voice_tasks:free_speech_general_mood"
+            },
+	        {
+                "variableName": "rainbow_passage_short_normal",
+                "isAbout": "voice_tasks:rainbow_passage_short_normal"
+            }
+        ],
+        "order": [
+            "voice_tasks:say_ah",
+            "voice_tasks:free_speech_general_mood",
+	        "voice_tasks:rainbow_passage_short_normal",
+	        "voice_tasks:animal_fluency"
+        ],
+        "shuffle": true
+    }
+}
