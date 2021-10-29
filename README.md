@@ -6,8 +6,10 @@ Code to run the MIT Month of Wellness Challenge protocol using Reproschema.
 
 
 ### Instructions for making edits
-* To quickly test you can go here: 
-    [https://www.repronim.org/reproschema-ui/#/?url=https://raw.githubusercontent.com/mentalwellbeing/WellBeingStudy/master/protocol/WellBeing_schema](https://www.repronim.org/reproschema-ui/#/?url=https://raw.githubusercontent.com/mentalwellbeing/WellBeingStudy/master/protocol/WellBeing_schema) 
+* To quickly test you can go here:
+
+
+    [https://www.repronim.org/reproschema-ui/#/?url=https://raw.githubusercontent.com/danielmlow/WellBeingStudy_test/master/protocol/WellBeing_schema](https://www.repronim.org/reproschema-ui/#/?url=https://raw.githubusercontent.com/danielmlow/WellBeingStudy_test/master/protocol/WellBeing_schema) 
     
     or replace your username and repo accordingly. 
 
