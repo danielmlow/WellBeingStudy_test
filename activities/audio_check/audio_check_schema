@@ -19,18 +19,20 @@
             },
 	    {
                 "variableName": "item_001",
-                "isAbout": "items/item_001"
+                "isAbout": "items/item_001",
+		"isVis": "myParameter === 1"
             },
 	    {
                 "variableName": "item_002",
-                "isAbout": "items/item_002"
+                "isAbout": "items/item_002",
+		"isVis": "myParameter === 2"
             }
 
         ],
         "order": [
             "voice_tasks:audio_check",
-            "item_001",
-            "item_002"
+            "items/item_001",
+            "items/item_002"
         ],
         "shuffle": false
     }
