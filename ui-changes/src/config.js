@@ -5,7 +5,7 @@ module.exports = {
     "en": 'Begin!',
     "es": '¡Comience!'
   },
-  assetsPublicPath: '/WellBeingStudy/',
+  assetsPublicPath: '/WellBeingStudy_test/',
   backendServer: 'https://sig.mit.edu/vb',
   showHelp: true,
   contact: 'voice_survey@mit.edu',
