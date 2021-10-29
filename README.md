@@ -5,7 +5,20 @@ Code to run the MIT Month of Wellness Challenge protocol using Reproschema.
 
 
 
-### Instructions for making edits
+
+# Copy this repo 
+
+Go to setting and enable gh-pages:  
+
+![image](https://user-images.githubusercontent.com/14787791/139488527-fa70f042-8d8e-4f84-a1af-8be6396c2e6c.png)
+
+
+
+Then also edit `githubSrc` and `assetsPublicPath` in `.ui-changes/src/config.js` to this repo.
+
+
+
+## Instructions for making edits
 * To quickly test you can go here:
 
 
@@ -71,4 +84,8 @@ add a break line with html: `One line <br>Next line`
 * Make sure there are no repeated values in radio items.
 * perhaps use integer for radio items instead of string. 
 * `variableName` is not always needed. Only when re-referencing it to use isVis for instance.
-* 
+
+
+
+
+
